@@ -4,8 +4,8 @@ const useVisualMode = function(initial) {
   const [mode, setMode] = useState(initial);
   const [history, setHistory] = useState([initial]);
 
-  function transition(mode, replace = false) {
-  }
+  const transition = function(newMode, replace = false) {
+  };
 
   const back = function() {
   };

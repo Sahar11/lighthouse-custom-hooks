@@ -1,16 +1,5 @@
 ## Custom Hooks
 
-## Topics
-* [] What are Custom Hooks
-* [] Why Custom Hooks are useful
-* [] What makes Custom Hooks special
-* [] Custom Hooks & State
-* [] Return value from a Custom Hook
-* [] Simple Custom Hook Example
-* [] useCounter
-* [] useAxios
-* [] use???   More examples
-
 ## Notes
 * Building your own Hooks lets you extract component logic into reusable functions.
 * Custom hooks let us move repetitive or complex code out of our components
