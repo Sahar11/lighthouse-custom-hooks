@@ -1,16 +1,23 @@
-## Custom Hooks
+# useVisualMode Visualizer
 
-## Notes
-* Building your own Hooks lets you extract component logic into reusable functions.
-* Custom hooks let us move repetitive or complex code out of our components
-* Pulls "logic" out of your component not "visuals"
-* You can think of Custom hooks as "helper functions" for React
-* Custom hooks usually use other React hooks (useState, useEffect, etc)
-* Normal helper functions cannot use Hooks. Only Custom Hooks can do that
-* React Rule: React Hooks must start with the prefix "use"
-* Multiple instances of the same custom hook do not share state
-* A Custom Hook can return anything you want (value, array, object, function)
+1. Copy this repo using "Use This Template"
 
+2. Clone your new repo: `git clone <your new new repo url>`
 
+3.  Change to the demo program directory:  `cd <new dir>/visual-mode`
 
- 
+4. IMPORTANT:  Make sure you really did step #3!.  Are you in the `visual-mode` dir?
+
+5. Check again:  `ls -al`  You should see `src` and `public` folders
+
+6. Install the project: `npm install`
+
+7. Start the App:  `npm start`  You will see a dish and some buttons that do nothing :-) 
+
+7. Edit src/hooks/useVisualMode.  Replace with your `useVisualMode` Hook
+
+8. Add `history` to the returned Object in `useVisualMode`.  Without this the progam will crash
+
+9. If your useVisualMode is working, now the buttons work
+
+10. If the bold text is the dish, your hook is working.
