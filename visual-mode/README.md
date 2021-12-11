@@ -1,6 +1,6 @@
 # useVisualMode Visualizer
 
-![Screen Demo](images/screen.png)
+![Screen Demo](images/start.png)
 1. Copy this repo using "Use This Template"
 
 2. Clone your new repo: `git clone <your new new repo url>`
@@ -21,4 +21,5 @@
 
 9. If your useVisualMode is working, now the buttons work
 
-10. The bold text is `mode`. If mode is the top dish, your hook is working.
+10. The bold text is `mode`. If mode is the top dish, your hook is working.   Did you forget Step 8 ??
+![Screen Demo](images/screen.png)
