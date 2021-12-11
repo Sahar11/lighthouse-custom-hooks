@@ -22,5 +22,5 @@
 
 10. If your useVisualMode is working, now the buttons work
 
-11. The bold text is `mode`. If mode is the top dish, your hook is working.   *Did you forget Step 9* ??
+11. The bold text is `mode`. If mode is the top dish, your hook is working.   *Did you forget Step 9?*
 <img src="images/screen.png"  title="useVisualMode Stack">
