@@ -12,7 +12,7 @@ const useVisualMode = function(initial) {
   const back = function() {
   };
 
-  // Don't fogrget this!  history is needed here
+  // Don't forget this!  history is needed here
   return { mode, transition, back, history };
 };
 
