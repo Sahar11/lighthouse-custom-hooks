@@ -16,11 +16,11 @@
 
 7. Start the App:  `npm start`  You will see a dish and some buttons that do nothing :-) 
 
-7. Edit `src/hooks/useVisualMode.js`.  Replace with your `useVisualMode` Hook
+8. Edit `src/hooks/useVisualMode.js`.  Replace with your `useVisualMode` Hook
 
-8. Add `history` to the returned Object in `useVisualMode`.  Without this the progam will crash
+9. Add `history` to the returned Object in `useVisualMode`.  Without this the progam will crash
 
-9. If your useVisualMode is working, now the buttons work
+10. If your useVisualMode is working, now the buttons work
 
-10. The bold text is `mode`. If mode is the top dish, your hook is working.   *Did you forget Step 8* ??
+11. The bold text is `mode`. If mode is the top dish, your hook is working.   *Did you forget Step 9* ??
 <img src="images/screen.png"  title="useVisualMode Stack">
