@@ -1,6 +1,6 @@
 const { useState } = require("react");
 
-///  Replace this code with your verson of useVisualMode
+///  Replace this code with your version of useVisualMode
 
 const useVisualMode = function(initial) {
   const [mode, setMode] = useState(initial);
