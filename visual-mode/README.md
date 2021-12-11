@@ -1,5 +1,6 @@
 # useVisualMode Visualizer
 
+![Screen Demo](images/screen.png)
 1. Copy this repo using "Use This Template"
 
 2. Clone your new repo: `git clone <your new new repo url>`
