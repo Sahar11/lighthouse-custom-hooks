@@ -16,7 +16,7 @@
 
 7. Start the App:  `npm start`  You will see a dish and some buttons that do nothing :-) 
 
-7. Edit src/hooks/useVisualMode.  Replace with your `useVisualMode` Hook
+7. Edit `src/hooks/useVisualMode.js`.  Replace with your `useVisualMode` Hook
 
 8. Add `history` to the returned Object in `useVisualMode`.  Without this the progam will crash
 
