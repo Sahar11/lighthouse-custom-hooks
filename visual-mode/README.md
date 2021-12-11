@@ -21,4 +21,4 @@
 
 9. If your useVisualMode is working, now the buttons work
 
-10. If the bold text is the dish, your hook is working.
+10. The bold text is `mode`. If mode is the top dish, your hook is working.
