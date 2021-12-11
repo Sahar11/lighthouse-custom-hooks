@@ -1,48 +1,33 @@
-.App {
-  margin: 1em;
-  text-align: center;
-}
+import useVisualMode from "hooks/useVisualMode";
+import plate from "assets/plate.png";
+import 'App.css';
 
-h1 {
-  font-family: cursive;
-}
+export default function App() {
+  const { mode, transition, back, history } = useVisualMode("START");
 
-ul {
-  list-style: none;
-  padding-left: 0;
-  margin: auto;
-  width: 20em;
-}
+  const random = function() {
+    return Math.random().toString(36).replace(/[^a-z]+/g, '').toUpperCase();
+  };
 
-li {
-  padding: 5px;
-  margin: .5em;
-  background-color: #eee;
-  text-align: left;
-}
+  const add = function() {
+    transition(random());
+  };
 
-li a {
-  color: grey;
-}
+  const replace = function() {
+    transition(random(), true);
+  };
 
-li:hover {
-  background-color: darkolivegreen;
-  color: white;
-}
+  const modeList = history.map((item, i) => <li key={i}>{`${i}`} <img src={plate} alt="plate" width="80" height="14" /> {item} </li>).reverse();
 
-li:hover a {
-  color: white;
+  return (
+    <div className="App">
+      <div>
+        <button onClick={back}>Back</button>
+        <button onClick={add}>Transition</button>
+        <button onClick={replace}>Replace</button>
+      </div>
+      <h4>{`${modeList.length - 1}: ${mode}`}</h4>
+      <ul> {modeList} </ul>
+    </div>
+  );
 }
-
-span {
-  color: red;
-}
-
-button { 
-  min-width: 2em;
-  padding: 4px;
-  margin: 4px 2px 4px 2px;
-}
-/* div{
-  border: 1px solid;
-} */
