@@ -1,11 +1,17 @@
 {
-  "name": "react-minimal",
+  "name": "custom-hooks-tester",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "keywords": [],
   "author": "",
