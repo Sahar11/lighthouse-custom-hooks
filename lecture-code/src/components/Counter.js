@@ -4,12 +4,12 @@ const Counter = function(props) {
   const [count, increment, decrement, clear] = useCounter(props.start);
 
   return (
-    <>
-      <div>{count}</div>
+    <div className = "counter">
+      <span>{count}</span>
       <button onClick={decrement}>-</button>
       <button onClick={clear}>0</button>
       <button onClick={increment}>+</button>
-    </>
+    </div>
   );
 };
 

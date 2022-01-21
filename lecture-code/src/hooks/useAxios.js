@@ -1,5 +1,5 @@
-import axios from "axios";
 import { useEffect, useState } from "react";
+import axios from "axios";
 
 const useAxios = function(url) {
   const [body, setBody] = useState("");
@@ -7,24 +7,23 @@ const useAxios = function(url) {
   const [pending, setPending] = useState(true);
 
   useEffect(() => {
-
+    setPending(true);
     setTimeout(() => {
 
-      setPending(true);
-      axios.get(url)
+      url && axios.get(url)
         .then(res => {
+          setError(null);
           setBody(res.data);
         })
         .catch(err => {
+          setBody(null);
           setError(err.message);
         })
         .finally(() => {
           setPending(false);
         });
 
-    }, 500);
-
-
+    }, 1000);
   }, []);
 
   return { body, error, pending };
