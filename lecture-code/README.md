@@ -6,10 +6,7 @@
 - [ ] What makes Custom Hooks special
 - [ ] Custom Hooks & State
 - [ ] Return value from a Custom Hook
-- [ ] Simple Custom Hook Example
-- [ ] useCounter
-- [ ] useAxios
-- [ ] useVisualMode 
+- [ ] Hook Examples
 
 ## Notes
 * Building your own Hooks lets you extract component logic into reusable functions.
