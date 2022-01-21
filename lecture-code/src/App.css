@@ -36,8 +36,10 @@
  }
  
  li span{
+  margin-left: 10px;
   color:red;
 }
+
  .counter span {
   float: left;
   width: 2em;
