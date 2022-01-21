@@ -1,5 +1,4 @@
 import 'App.css';
-import axios from 'axios';
 import Counter from 'components/Counter';
 import KanyeQuote from 'components/KanyeQuote';
 import OfficeQuote from 'components/OfficeQuote';
