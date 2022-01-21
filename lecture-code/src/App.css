@@ -35,6 +35,9 @@
    color: white;
  }
  
+ li span{
+  color:red;
+}
  .counter span {
   float: left;
   width: 2em;
