@@ -6,5 +6,5 @@
 - [ ] What makes Custom Hooks special
 - [ ] Custom Hooks & State
 - [ ] Return value from a Custom Hook
-- [ ] Hook Examples
+- [ ] Custom Hook Examples
 
