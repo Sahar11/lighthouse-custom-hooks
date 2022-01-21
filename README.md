@@ -9,7 +9,7 @@
 - [ ] Custom Hook Examples
 
 ## Notes
-ok can return anything you want (value, array, object, function)
+
 
 
 
