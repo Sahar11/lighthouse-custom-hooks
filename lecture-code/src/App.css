@@ -34,6 +34,10 @@
  li:hover a {
    color: white;
  }
+
+ li span{
+   color:red;
+ }
  
  .counter {
    margin-bottom: 1em;
