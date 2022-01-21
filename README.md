@@ -6,7 +6,7 @@
 - [ ] What makes Custom Hooks special
 - [ ] Custom Hooks & State
 - [ ] Return value from a Custom Hook
-- [ ] Simple Custom Hook Example
+- [ ] Custom Hook Examples
 - [ ] useCounter
 - [ ] useAxios
 - [ ] useVisualMode 
